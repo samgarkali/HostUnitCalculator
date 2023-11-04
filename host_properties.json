@@ -1,0 +1,629 @@
+{
+  "type": "HOST",
+  "displayName": "Host",
+  "dimensionKey": "dt.entity.host",
+  "entityLimitExceeded": false,
+  "properties": [
+    {
+      "id": "additionalSystemInfo",
+      "type": "Map",
+      "displayName": "additionalSystemInfo"
+    },
+    {
+      "id": "autoInjection",
+      "type": "Enum",
+      "displayName": "autoInjection"
+    },
+    {
+      "id": "awsNameTag",
+      "type": "String",
+      "displayName": "awsNameTag"
+    },
+    {
+      "id": "azureComputeModeName",
+      "type": "Enum",
+      "displayName": "azureComputeModeName"
+    },
+    {
+      "id": "azureEnvironment",
+      "type": "String",
+      "displayName": "azureEnvironment"
+    },
+    {
+      "id": "azureHostNames",
+      "type": "List",
+      "displayName": "azureHostNames"
+    },
+    {
+      "id": "azureResourceGroupName",
+      "type": "String",
+      "displayName": "azureResourceGroupName"
+    },
+    {
+      "id": "azureSiteNames",
+      "type": "List",
+      "displayName": "azureSiteNames"
+    },
+    {
+      "id": "azureSku",
+      "type": "Enum",
+      "displayName": "azureSku"
+    },
+    {
+      "id": "azureVmScaleSetName",
+      "type": "String",
+      "displayName": "azureVmScaleSetName"
+    },
+    {
+      "id": "azureVmSizeLabel",
+      "type": "String",
+      "displayName": "azureVmSizeLabel"
+    },
+    {
+      "id": "azureZone",
+      "type": "String",
+      "displayName": "azureZone"
+    },
+    {
+      "id": "bitness",
+      "type": "Enum",
+      "displayName": "bitness"
+    },
+    {
+      "id": "boshAvailabilityZone",
+      "type": "String",
+      "displayName": "boshAvailabilityZone"
+    },
+    {
+      "id": "boshDeploymentId",
+      "type": "String",
+      "displayName": "boshDeploymentId"
+    },
+    {
+      "id": "boshInstanceId",
+      "type": "String",
+      "displayName": "boshInstanceId"
+    },
+    {
+      "id": "boshInstanceName",
+      "type": "String",
+      "displayName": "boshInstanceName"
+    },
+    {
+      "id": "boshName",
+      "type": "String",
+      "displayName": "boshName"
+    },
+    {
+      "id": "boshStemcellVersion",
+      "type": "String",
+      "displayName": "boshStemcellVersion"
+    },
+    {
+      "id": "cloudPlatformVendorVersion",
+      "type": "String",
+      "displayName": "cloudPlatformVendorVersion"
+    },
+    {
+      "id": "cloudType",
+      "type": "Enum",
+      "displayName": "cloudType"
+    },
+    {
+      "id": "conditionalName",
+      "type": "String",
+      "displayName": "conditionalName"
+    },
+    {
+      "id": "cpuCores",
+      "type": "Number",
+      "displayName": "cpuCores"
+    },
+    {
+      "id": "customHostMetadata",
+      "type": "Map",
+      "displayName": "customHostMetadata"
+    },
+    {
+      "id": "customizedName",
+      "type": "String",
+      "displayName": "customizedName"
+    },
+    {
+      "id": "detectedName",
+      "type": "String",
+      "displayName": "detectedName"
+    },
+    {
+      "id": "dnsNames",
+      "type": "List",
+      "displayName": "dnsNames"
+    },
+    {
+      "id": "dt.security_context",
+      "type": "List",
+      "displayName": "dt.security_context"
+    },
+    {
+      "id": "gceHostName",
+      "type": "String",
+      "displayName": "gceHostName"
+    },
+    {
+      "id": "gceInstanceId",
+      "type": "String",
+      "displayName": "gceInstanceId"
+    },
+    {
+      "id": "gceInstanceName",
+      "type": "String",
+      "displayName": "gceInstanceName"
+    },
+    {
+      "id": "gceMachineType",
+      "type": "String",
+      "displayName": "gceMachineType"
+    },
+    {
+      "id": "gceNumericProjectId",
+      "type": "String",
+      "displayName": "gceNumericProjectId"
+    },
+    {
+      "id": "gceProjectId",
+      "type": "String",
+      "displayName": "gceProjectId"
+    },
+    {
+      "id": "gcePublicIpAddresses",
+      "type": "List",
+      "displayName": "gcePublicIpAddresses"
+    },
+    {
+      "id": "gcpZone",
+      "type": "String",
+      "displayName": "gcpZone"
+    },
+    {
+      "id": "hostGroupName",
+      "type": "String",
+      "displayName": "hostGroupName"
+    },
+    {
+      "id": "hypervisorType",
+      "type": "Enum",
+      "displayName": "hypervisorType"
+    },
+    {
+      "id": "installerPotentialProblem",
+      "type": "Boolean",
+      "displayName": "installerPotentialProblem"
+    },
+    {
+      "id": "installerSupportAlert",
+      "type": "Boolean",
+      "displayName": "installerSupportAlert"
+    },
+    {
+      "id": "installerTrackedDownload",
+      "type": "Boolean",
+      "displayName": "installerTrackedDownload"
+    },
+    {
+      "id": "installerVersion",
+      "type": "String",
+      "displayName": "installerVersion"
+    },
+    {
+      "id": "ipAddress",
+      "type": "List",
+      "displayName": "ipAddress"
+    },
+    {
+      "id": "isMonitoringCandidate",
+      "type": "Boolean",
+      "displayName": "isMonitoringCandidate"
+    },
+    {
+      "id": "kubernetesLabels",
+      "type": "Map",
+      "displayName": "kubernetesLabels"
+    },
+    {
+      "id": "logFileStatus",
+      "type": "Map",
+      "displayName": "logFileStatus"
+    },
+    {
+      "id": "logPathLastUpdate",
+      "type": "Map",
+      "displayName": "logPathLastUpdate"
+    },
+    {
+      "id": "logSourceState",
+      "type": "Map",
+      "displayName": "logSourceState"
+    },
+    {
+      "id": "logicalCpuCores",
+      "type": "Number",
+      "displayName": "logicalCpuCores"
+    },
+    {
+      "id": "logicalCpus",
+      "type": "Number",
+      "displayName": "logicalCpus"
+    },
+    {
+      "id": "macAddresses",
+      "type": "List",
+      "displayName": "macAddresses"
+    },
+    {
+      "id": "memoryTotal",
+      "type": "Number",
+      "displayName": "memoryTotal"
+    },
+    {
+      "id": "monitoringMode",
+      "type": "Enum",
+      "displayName": "monitoringMode"
+    },
+    {
+      "id": "networkZone",
+      "type": "String",
+      "displayName": "networkZone"
+    },
+    {
+      "id": "oneAgentCustomHostName",
+      "type": "String",
+      "displayName": "oneAgentCustomHostName"
+    },
+    {
+      "id": "osArchitecture",
+      "type": "Enum",
+      "displayName": "osArchitecture"
+    },
+    {
+      "id": "osServices",
+      "type": "List",
+      "displayName": "osServices"
+    },
+    {
+      "id": "osType",
+      "type": "Enum",
+      "displayName": "osType"
+    },
+    {
+      "id": "osVersion",
+      "type": "String",
+      "displayName": "osVersion"
+    },
+    {
+      "id": "paasMemoryLimit",
+      "type": "Number",
+      "displayName": "paasMemoryLimit"
+    },
+    {
+      "id": "paasVendorType",
+      "type": "Enum",
+      "displayName": "paasVendorType"
+    },
+    {
+      "id": "physicalMemory",
+      "type": "Number",
+      "displayName": "physicalMemory"
+    },
+    {
+      "id": "simultaneousMultithreading",
+      "type": "Number",
+      "displayName": "simultaneousMultithreading"
+    },
+    {
+      "id": "softwareTechnologies",
+      "type": "List",
+      "displayName": "softwareTechnologies"
+    },
+    {
+      "id": "standalone",
+      "type": "Boolean",
+      "displayName": "standalone"
+    },
+    {
+      "id": "standaloneSpecialAgentsOnly",
+      "type": "Boolean",
+      "displayName": "standaloneSpecialAgentsOnly"
+    },
+    {
+      "id": "state",
+      "type": "Enum",
+      "displayName": "state"
+    },
+    {
+      "id": "virtualCpus",
+      "type": "Number",
+      "displayName": "virtualCpus"
+    },
+    {
+      "id": "zosCPUModelNumber",
+      "type": "String",
+      "displayName": "zosCPUModelNumber"
+    },
+    {
+      "id": "zosCPUSerialNumber",
+      "type": "String",
+      "displayName": "zosCPUSerialNumber"
+    },
+    {
+      "id": "zosLparName",
+      "type": "String",
+      "displayName": "zosLparName"
+    },
+    {
+      "id": "zosSystemName",
+      "type": "String",
+      "displayName": "zosSystemName"
+    },
+    {
+      "id": "zosTotalGeneralPurposeProcessors",
+      "type": "Number",
+      "displayName": "zosTotalGeneralPurposeProcessors"
+    },
+    {
+      "id": "zosTotalPhysicalMemory",
+      "type": "Number",
+      "displayName": "zosTotalPhysicalMemory"
+    },
+    {
+      "id": "zosTotalZiipProcessors",
+      "type": "Number",
+      "displayName": "zosTotalZiipProcessors"
+    },
+    {
+      "id": "zosVirtualization",
+      "type": "String",
+      "displayName": "zosVirtualization"
+    }
+  ],
+  "tags": "List",
+  "managementZones": "List",
+  "fromRelationships": [
+    {
+      "id": "candidateTalksWith",
+      "toTypes": [
+        "AWS_APPLICATION_LOAD_BALANCER",
+        "AWS_LAMBDA_FUNCTION",
+        "AWS_NETWORK_LOAD_BALANCER",
+        "AZURE_API_MANAGEMENT_SERVICE",
+        "AZURE_APPLICATION_GATEWAY",
+        "AZURE_COSMOS_DB",
+        "AZURE_EVENT_HUB_NAMESPACE",
+        "AZURE_IOT_HUB",
+        "AZURE_LOAD_BALANCER",
+        "AZURE_REDIS_CACHE",
+        "AZURE_SERVICE_BUS_NAMESPACE",
+        "AZURE_SQL_SERVER",
+        "AZURE_STORAGE_ACCOUNT",
+        "CUSTOM_DEVICE",
+        "ELASTIC_LOAD_BALANCER",
+        "PROCESS_GROUP_INSTANCE",
+        "RELATIONAL_DATABASE_SERVICE"
+      ]
+    },
+    {
+      "id": "hostsComputeNode",
+      "toTypes": [
+        "OPENSTACK_COMPUTE_NODE"
+      ]
+    },
+    {
+      "id": "isAccessibleBy",
+      "toTypes": [
+        "OPENSTACK_PROJECT"
+      ]
+    },
+    {
+      "id": "isHostOfContainer",
+      "toTypes": [
+        "DOCKER_CONTAINER_GROUP_INSTANCE"
+      ]
+    },
+    {
+      "id": "isInstanceOf",
+      "toTypes": [
+        "HOST_GROUP"
+      ]
+    },
+    {
+      "id": "isMemberOfScalingGroup",
+      "toTypes": [
+        "AUTO_SCALING_GROUP",
+        "AZURE_VM_SCALE_SET"
+      ]
+    },
+    {
+      "id": "isNetworkClientOfHost",
+      "toTypes": [
+        "AWS_APPLICATION_LOAD_BALANCER",
+        "AWS_NETWORK_LOAD_BALANCER",
+        "AZURE_API_MANAGEMENT_SERVICE",
+        "AZURE_APPLICATION_GATEWAY",
+        "AZURE_COSMOS_DB",
+        "AZURE_EVENT_HUB_NAMESPACE",
+        "AZURE_IOT_HUB",
+        "AZURE_LOAD_BALANCER",
+        "AZURE_REDIS_CACHE",
+        "AZURE_SERVICE_BUS_NAMESPACE",
+        "AZURE_SQL_SERVER",
+        "AZURE_STORAGE_ACCOUNT",
+        "CUSTOM_DEVICE",
+        "ELASTIC_LOAD_BALANCER",
+        "HOST",
+        "RELATIONAL_DATABASE_SERVICE"
+      ]
+    },
+    {
+      "id": "runsOn",
+      "toTypes": [
+        "AZURE_VM",
+        "EC2_INSTANCE",
+        "GOOGLE_COMPUTE_ENGINE",
+        "HYPERVISOR",
+        "OPENSTACK_COMPUTE_NODE",
+        "OPENSTACK_VM",
+        "VIRTUALMACHINE"
+      ]
+    },
+    {
+      "id": "runsOnResource",
+      "toTypes": [
+        "CUSTOM_DEVICE"
+      ]
+    }
+  ],
+  "toRelationships": [
+    {
+      "id": "isBoshDeploymentOfHost",
+      "fromTypes": [
+        "BOSH_DEPLOYMENT"
+      ]
+    },
+    {
+      "id": "isCfFoundationOfHost",
+      "fromTypes": [
+        "CF_FOUNDATION"
+      ]
+    },
+    {
+      "id": "isCgiOfHost",
+      "fromTypes": [
+        "CONTAINER_GROUP_INSTANCE"
+      ]
+    },
+    {
+      "id": "isClusterOfHost",
+      "fromTypes": [
+        "KUBERNETES_CLUSTER"
+      ]
+    },
+    {
+      "id": "isDiskOf",
+      "fromTypes": [
+        "DISK"
+      ]
+    },
+    {
+      "id": "isNetworkClientOfHost",
+      "fromTypes": [
+        "AWS_APPLICATION_LOAD_BALANCER",
+        "AWS_NETWORK_LOAD_BALANCER",
+        "AZURE_API_MANAGEMENT_SERVICE",
+        "AZURE_APPLICATION_GATEWAY",
+        "AZURE_COSMOS_DB",
+        "AZURE_EVENT_HUB_NAMESPACE",
+        "AZURE_IOT_HUB",
+        "AZURE_LOAD_BALANCER",
+        "AZURE_REDIS_CACHE",
+        "AZURE_SERVICE_BUS_NAMESPACE",
+        "AZURE_SQL_SERVER",
+        "AZURE_STORAGE_ACCOUNT",
+        "CUSTOM_DEVICE",
+        "ELASTIC_LOAD_BALANCER",
+        "HOST",
+        "RELATIONAL_DATABASE_SERVICE"
+      ]
+    },
+    {
+      "id": "isNetworkInterfaceOf",
+      "fromTypes": [
+        "NETWORK_INTERFACE"
+      ]
+    },
+    {
+      "id": "isNodeOfHost",
+      "fromTypes": [
+        "KUBERNETES_NODE"
+      ]
+    },
+    {
+      "id": "isOpenstackAvZoneOf",
+      "fromTypes": [
+        "OPENSTACK_AVAILABILITY_ZONE"
+      ]
+    },
+    {
+      "id": "isPgAppOf",
+      "fromTypes": [
+        "AZURE_FUNCTION_APP",
+        "AZURE_WEB_APP"
+      ]
+    },
+    {
+      "id": "isProcessOf",
+      "fromTypes": [
+        "PROCESS_GROUP_INSTANCE"
+      ]
+    },
+    {
+      "id": "isSameAs",
+      "fromTypes": [
+        "sql:sql_server_host"
+      ]
+    },
+    {
+      "id": "isSiteOf",
+      "fromTypes": [
+        "AWS_AVAILABILITY_ZONE",
+        "AZURE_REGION",
+        "GCP_ZONE",
+        "GEOLOC_SITE",
+        "OPENSTACK_REGION",
+        "VMWARE_DATACENTER"
+      ]
+    },
+    {
+      "id": "monitors",
+      "fromTypes": [
+        "MULTIPROTOCOL_MONITOR"
+      ]
+    },
+    {
+      "id": "runsOn",
+      "fromTypes": [
+        "OPENSTACK_VM",
+        "PROCESS_GROUP",
+        "os:service"
+      ]
+    },
+    {
+      "id": "runsOnHost",
+      "fromTypes": [
+        "QUEUE_INSTANCE",
+        "SERVICE",
+        "SERVICE_INSTANCE"
+      ]
+    },
+    {
+      "id": "talksWithCandidate",
+      "fromTypes": [
+        "AWS_APPLICATION_LOAD_BALANCER",
+        "AWS_LAMBDA_FUNCTION",
+        "AWS_NETWORK_LOAD_BALANCER",
+        "AZURE_API_MANAGEMENT_SERVICE",
+        "AZURE_APPLICATION_GATEWAY",
+        "AZURE_COSMOS_DB",
+        "AZURE_EVENT_HUB_NAMESPACE",
+        "AZURE_IOT_HUB",
+        "AZURE_LOAD_BALANCER",
+        "AZURE_REDIS_CACHE",
+        "AZURE_SERVICE_BUS_NAMESPACE",
+        "AZURE_SQL_SERVER",
+        "AZURE_STORAGE_ACCOUNT",
+        "CUSTOM_DEVICE",
+        "ELASTIC_LOAD_BALANCER",
+        "PROCESS_GROUP_INSTANCE",
+        "RELATIONAL_DATABASE_SERVICE"
+      ]
+    }
+  ]
+}

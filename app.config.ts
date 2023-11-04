@@ -7,7 +7,7 @@ const config: CliOptions = {
     version: '0.0.0',
     description: 'A starting project with routing, fetching data, and charting',
     id: 'my.test.app',
-    scopes: [{ name: 'storage:logs:read', comment: 'default template' }, { name: 'storage:buckets:read', comment: 'default template' }]
+    scopes: [{ name: 'storage:logs:read', comment: 'default template' }, { name: 'storage:buckets:read', comment: 'default template' }, { name: 'environment-api:entities:read', comment: 'default template'}]
   },
 };
 
